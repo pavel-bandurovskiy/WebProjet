@@ -1325,4 +1325,964 @@
         width: 260px;
         max-width: 100%;
     }
+    @media all {
+
+    main-addition {
+        position: relative;
+        padding-top: 40px;
+      }
+      .additions-list {
+        margin-top: 45px;
+        text-align: center;
+      }
+      .addition-item {
+        position: relative;
+      }
+      .addition-label {
+        position: relative;
+        font-weight: bold;
+        font-size: 24px;
+        color: #050c33;
+      }
+      .addition-head br {
+        display: none;
+      }
+      .addition-head {
+        margin-top: 10px;
+        width: 190px;
+        max-width: 100%;
+        margin: auto;
+      }
+      .addition-num {
+        font-size: 28px;
+        font-weight: bold;
+        color: #050c33;
+      }
+      .addition-desc {
+        font-weight: 500;
+        font-size: 14px;
+        color: #050c33;
+        opacity: 0.7;
+      }
+      .addition-bg {
+        position: relative;
+        z-index: 5;
+      }
+      .addition-bg:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 114px;
+        height: 71px;
+        left: 50px;
+        bottom: -6px;
+        z-index: 1;
+        background: url("./img/Vectorlistbg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      }
+#block-views-block-team-new .block-title {
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 42px;
+        color: #050c33;
+        margin-bottom: 80px;
+        margin-top: 130px;
+    }
+    #block-views-block-team-new .view-content {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #block-views-block-team-new .view-content:after, #block-views-block-team-new .view-content:before {
+        width: 0;
+    }
+    #block-views-block-team-new .views-row {
+        padding: 0 50px;
+    }
+    .user-teaser {
+        text-align: left;
+        margin-bottom: 70px;
+    }
+    .user-teaser-photo {
+        border-radius: 0;
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: 25px;
+    }
+    .user-teaser-name a, .user-teaser-name {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.37;
+        color: #050c33;
+        text-decoration: none;
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+    .user-teaser-post {
+        padding: 0;
+        color: #505570;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.37;
+        margin-bottom: 5px;
+    }
+    #block-views-block-our-clients {
+        margin-bottom: 110px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    #block-views-block-our-clients .block-title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 42px;
+        color: #050c33;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    #block-views-block-our-clients .view-header {
+        width: 740px;
+        max-width: 100%;
+        padding: 0 15px;
+        margin: auto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.37;
+        text-align: center;
+        color: #505570;
+        margin-bottom: 40px;
+    }
+    #block-views-block-our-clients .slick-list {
+        margin: 0;
+    }
+    #block-views-block-our-clients .attachment-after .slick-track {
+        margin-left: -10%;
+    }
+    #block-views-block-our-clients .slick__slide {
+        outline: 0;
+    }
+    #block-views-block-our-clients .slick__slide .views-field-field-project-logo {
+        border: 1px solid #e5e5e5;
+        box-sizing: border-box;
+        border-radius: 5px;
+        align-items: center;
+        padding: 5px;
+        min-height: 155px;
+        height: 155px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+    #block-views-block-testimonials-block-1 {
+        margin-bottom: 160px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        background: url(img/right-quote-sign.svg) no-repeat left top;
+        background-size: 26%;
+        padding-top: 90px;
+    }
+    #block-views-block-testimonials-block-1 h2 {
+        font-weight: bold;
+        font-size: 42px;
+        margin-bottom: 46px;
+        margin-top: 0;
+        text-align: center;
+        color: #050c33;
+    }
+    #block-views-block-testimonials-block-1 .view-content {
+        width: 980px;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 74px;
+        position: relative;
+    }
+    #block-views-block-testimonials-block-1 .view-content:before {
+        content: "";
+        display: block;
+        background: #fff;
+        opacity: .5;
+        border: 1px solid rgba(0, 0, 0, .1);
+        box-sizing: border-box;
+        box-shadow: 0 4px 60px rgba(162, 162, 162, .25);
+        border-radius: 5px;
+        position: absolute;
+        top: -40px;
+        bottom: 0;
+        left: 64px;
+        right: 64px;
+        z-index: 5;
+    }
+    #block-views-block-testimonials-block-1 .view-content:after {
+        content: "";
+        display: block;
+        background: #fff;
+        opacity: .34;
+        border: 1px solid rgba(0, 0, 0, .1);
+        box-sizing: border-box;
+        box-shadow: 0 4px 60px rgba(162, 162, 162, .25);
+        border-radius: 5px;
+        position: absolute;
+        top: -72px;
+        bottom: 0;
+        left: 128px;
+        right: 128px;
+        z-index: 4;
+    }
+    #block-views-block-testimonials-block-1 .slick {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        z-index: 10;
+        background: #fff;
+        border: 1px solid rgba(0, 0, 0, .1);
+        box-sizing: border-box;
+        box-shadow: 0 4px 60px rgba(162, 162, 162, .25);
+        border-radius: 5px;
+        padding: 66px 0 66px 68px;
+    }
+    #block-views-block-testimonials-block-1 .slick:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    #block-views-block-testimonials-block-1 .slick-list {
+        margin: 0;
+    }
+    #block-views-block-testimonials-block-1 .slick-slider {
+        width: 64%;
+        float: left;
+        padding-right: 60px;
+        border-right: 1px solid #cdcdcd;
+        padding: 14px 60px;
+    }
+    #block-views-block-testimonials-block-1 .slick-slide {
+        outline: 0;
+    }
+    #block-views-block-testimonials-block-1 .slick__arrow {
+        width: 36%;
+        float: left;
+        display: flex;
+    }
+    #block-views-block-testimonials-block-1 .slick__arrow-wrapper {
+        margin: auto;
+    }
+    #block-views-block-testimonials-block-1 .slick-arrow {
+        width: 16px;
+        height: 32px;
+        border: 0;
+        box-shadow: none;
+        font-size: 0;
+        outline: 0;
+    }
+    #block-views-block-testimonials-block-1 .slick-arrow.slick-prev {
+        background: url('img/arrow-left.svg') no-repeat center;
+        background-size: contain;
+    }
+    #block-views-block-testimonials-block-1 .slick-arrow.slick-next {
+        background: url('img/arrow-right.svg') no-repeat center;
+        background-size: contain;
+    }
+    #block-views-block-testimonials-block-1 .slick-slide-num {
+        display: inline-block;
+        margin: 0 46px;
+        font-size: 28px;
+        vertical-align: middle;
+        color: #e0e0e0;
+    }
+    #block-views-block-testimonials-block-1 .slick-slide-num-current {
+        color: #050c33;
+    }
+    #block-views-block-testimonials-block-1 .views-field-field-project-logo {
+        text-align: left;
+    }
+    #block-views-block-testimonials-block-1 .views-field-field-project-logo img {
+        margin: 0 0 40px;
+    }
+    #block-views-block-testimonials-block-1 .views-field-field-report-text {
+        margin-bottom: 28px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 1.2;
+        color: #050c33;
+        outline: 0;
+        text-decoration-line: underline;
+    }
+    #block-views-block-testimonials-block-1 .views-field-field-report-author {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.2;
+        color: #838b9c;
+    }
+    #block-views-block-blog-block-1 .view-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #block-views-block-blog-block-1 .view-content:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    #block-views-block-blog-block-1 .block-title {
+        font-weight: bold;
+        font-size: 42px;
+        margin-bottom: 46px;
+        margin-top: 0;
+        text-align: center;
+        color: #050c33;
+    }
+    #block-views-block-blog-block-1 .more-link {
+        text-align: center;
+    }
+    #block-views-block-blog-block-1 .more-link a {
+        display: inline-block;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1;
+        text-transform: uppercase;
+        color: #050c33;
+        padding: 24px 75px;
+        border: 1px solid #cccdd5;
+        border-radius: 5px;
+        text-decoration: none;
+        margin-bottom: 20px;
+    }
+    .blog.keys-1 {
+        width: 33.333333%;
+        padding: 0 10px;
+        float: left;
+        margin-bottom: 20px;
+        min-height: 475px;
+        font-family: 'Montserrat', sans-serif;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .blog.keys-2 {
+        width: 66.66666667%;
+        padding: 0 10px;
+        float: left;
+        margin-bottom: 20px;
+        min-height: 475px;
+        font-family: 'Montserrat', sans-serif;
+        overflow: hidden;
+        cursor: pointer;
+    }
+    .keys-wrapper {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 40px;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .keys-wrapper:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(360deg, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, 0) 55.58%);
+        z-index: 5;
+        border-radius: 5px;
+    }
+    .keys-header {
+        margin-top: auto;
+        position: relative;
+        z-index: 10;
+    }
+    .keys-header h2 {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 1.25;
+        margin-bottom: 5px;
+        width: 320px;
+        max-width: 100%;
+    }
+    .keys-header h2 a {
+        color: #fff;
+    }
+    .keys-content {
+        position: relative;
+        z-index: 10;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #4e5a73;
+    }
+    .keys-img {
+        position: relative;
+        z-index: 10;
+        height: 50%;
+        background-position: center;
+        background-size: cover;
+        margin-left: -40px;
+        margin-right: -40px;
+        margin-top: -40px;
+        border-radius: 5px;
+        box-sizing: content-box;
+    }
+    .keys-date {
+        color: #fff;
+        opacity: .5;
+        font-size: 12px;
+        line-height: 1.25;
+    }
+    .blog.keys-1 .keys-content, .blog.keys-1 .keys-img {
+        display: none;
+    }
+
+    .inverse .blog.keys-1:nth-of-type(4n+1) .keys-wrapper {
+        background: none!important;
+    }
+    .inverse .blog.keys-1:nth-of-type(4n+1) .keys-wrapper:before {
+        display: none;
+    }
+    .inverse .blog.keys-1:nth-of-type(4n+1) .keys-content, .inverse .blog.keys-1:nth-of-type(4n+1) .keys-img {
+        display: block;
+    }
+    .inverse .blog.keys-1:nth-of-type(4n+1) .keys-header {
+        margin-top: 40px;
+    }
+    .inverse .blog.keys-1:nth-of-type(4n+1) .keys-header h2 a {
+        color: #050c33;
+    }
+    .inverse .blog.keys-1:nth-of-type(4n+1) .keys-date {
+        color: #050c33;
+    }
+
+    .social-links {
+        margin-bottom: 15px;
+    }
+    .social-links-item {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .social-links-item:last-of-type {
+        margin-right: 0;
+    }
+    .social-links-item a {
+        border: 2px solid #f14d34;
+        background: #f14d34;
+        border-radius: 5px;
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        text-align: center;
+        line-height: 30px;
+        transition: background 300ms;
+    }
+    .social-links-item a:hover, .social-links-item a:active {
+        color: #fff;
+        background: transparent;
+    }
+
+    
+    @media (max-width:1300px) {
+        .expertise {
+            padding: 335px 0 120px;
+        }
+    }
+    @media (max-width:1199px) {
+        .expertise {
+            padding: 280px 0 40px;
+        }
+        .block-main {
+            padding-top: 150px;
+        }
+    }
+    @media (max-width:1080px) {
+        .competencies h2, #block-tariffs .block-title, #block-views-block-team-new .block-title, #block-views-block-our-clients .block-title, #block-views-block-testimonials-block-1 .block-title, #block-views-block-blog-block-1 .block-title, .advantages h2, .expertise h2 {
+            font-size: 36px;
+        }
+        .competency-icon {
+            padding-left: 54px;
+        }
+        .competency-icon:before {
+            left: 0;
+        }
+        .competency-body {
+            font-size: 14px;
+        }
+    }
+    @media (max-width:1024px) {
+        #block-views-block-our-clients .attachment-after .slick-track {
+            margin-left: -50%;
+        }
+        .blog.keys-1, .blog.keys-2 {
+            min-height: 360px;
+        }
+    }
+    @media (max-width:991px) {
+        .tariff {
+            padding: 35px 20px;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .tarrif-body-item {
+            font-size: 14px;
+        }
+        .tariff-price {
+            font-size: 56px;
+        }
+        .block-main {
+            padding-top: 170px;
+        }
+        .block-main-btn {
+            margin-bottom: 80px;
+        }
+        .support-achievement {
+            margin-bottom: 30px;
+        }
+        .support-achievement-wrapper {
+            width: 160px;
+            max-width: 100%;
+        }
+        .block-form-description {
+            margin-bottom: 30px;
+        }
+        .block-form-title, .competencies h2, .expertise h2, #block-tariffs .block-title, #block-views-block-team-new .block-title, #block-views-block-our-clients .block-title, #block-views-block-testimonials-block-1 .block-title, #block-views-block-blog-block-1 .block-title, .advantages h2 {
+            font-size: 32px;
+        }
+        #block-views-block-team-new .block-title {
+            margin-top: 20px;
+        }
+        .field--form-value form {
+            margin-top: 0;
+        }
+        footer {
+            background-size: cover, 235px, 230px;
+        }
+        .expertise {
+            padding: 230px 0 0;
+        }
+        .expertise-img {
+            position: relative;
+            width: 70%;
+        }
+        #block-views-block-testimonials-block-1 {
+            margin-bottom: 110px;
+            padding-top: 35px;
+        }
+        #block-views-block-testimonials-block-1 .view-content {
+            margin-top: 48px;
+        }
+        #block-views-block-testimonials-block-1 .view-content:after {
+            left: 68px;
+            right: 68px;
+            top: -48px;
+        }
+        #block-views-block-testimonials-block-1 .view-content:before {
+            left: 34px;
+            right: 34px;
+            top: -25px;
+        }
+        #block-views-block-testimonials-block-1 .slick {
+            display: block;
+            padding: 15px;
+        }
+        #block-views-block-testimonials-block-1 .slick-slider, #block-views-block-testimonials-block-1 .slick__arrow {
+            width: 100%;
+            float: none;
+            display: block;
+            padding: 20px 15px;
+            border: 0;
+        }
+        #block-views-block-testimonials-block-1 .slick__arrow {
+            text-align: center;
+            border-top: 1px solid #cdcdcd;
+        }
+        #block-views-block-testimonials-block-1 .slick__arrow-wrapper {
+            display: inline-block;
+        }
+        .keys-header h2 {
+            font-size: 14px;
+        }
+        .keys-wrapper {
+            padding: 15px;
+        }
+        .keys-content {
+            font-size: 12px;
+        }
+        .keys-img {
+            margin-top: -15px;
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+        .blog.keys-1, .blog.keys-2 {
+            min-height: 325px;
+        }
+        #block-views-block-blog-block-1 .more-link a {
+            padding: 10px 30px;
+        }
+    }
+    @media (max-width:767px) {
+        #block-tariffs, .competencies {
+            padding: 50px 0;
+            background-size: cover;
+        }
+        #block-tariffs {
+            padding-top: 105px;
+        }
+        .row-flex {
+            margin-bottom: 10px;
+        }
+        .tariff {
+            margin: 0 auto 30px;
+            padding: 30px 15px;
+            width: 420px;
+            max-width: 100%;
+        }
+        .tariff-wrapper {
+            width: 100%;
+        }
+        .tariff:hover, .tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff:hover, .col-flex:nth-of-type(2n) .tariff {
+            transform: initial;
+        }
+        .block-main {
+            padding-top: 40px;
+        }
+        .block-main:before {
+            background-size: contain;
+            background-position: center top;
+        }
+        .block-main h1 {
+            font-size: 42px;
+            line-height: 1.2;
+            text-align: center;
+        }
+        .support-main-description {
+            font-size: 14px;
+            text-align: center;
+        }
+        .block-main-wrapper {
+            text-align: center;
+        }
+        .block-main-btn {
+            margin-bottom: 55px;
+        }
+        .block-form-title, .competencies h2, .advantages h2, .expertise h2, #block-tariffs .block-title, #block-views-block-team-new .block-title, #block-views-block-our-clients .block-title, #block-views-block-testimonials-block-1 .block-title, #block-views-block-blog-block-1 .block-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            margin-top: initial;
+        }
+        .block-form-wrapper {
+            margin: 0 auto 30px;
+            text-align: center;
+        }
+        .block-form-contacts ul li a {
+            font-size: 14px;
+        }
+        .block-form-contacts .block-form-phone a {
+            font-size: 24px;
+        }
+        .field--form-value form {
+            margin: auto;
+        }
+        footer {
+            background-size: cover, 165px, 140px;
+        }
+        .competency {
+            margin-bottom: 30px;
+        }
+        .competency-header {
+            text-align: center;
+        }
+        .competency-icon {
+            padding: 0;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+        .competency-icon:before {
+            left: -54px;
+        }
+        .competency-icon img {
+            margin: auto;
+        }
+        .competency-body {
+            font-size: 14px;
+            width: 200px;
+            max-width: 100%;
+            margin: auto;
+        }
+        .competency-body br {
+            display: none;
+        }
+        .expertise-img {
+            width: 85%;
+        }
+        .advantage {
+            min-height: 220px;
+        }
+        #block-views-block-team-new {
+            padding-top: 50px;
+        }
+        #block-views-block-team-new .views-row {
+            padding: 0 15px;
+        }
+        #block-views-block-testimonials-block-1 .views-field-field-report-text {
+            margin-bottom: 15px;
+        }
+        .blog.keys-1, .blog.keys-2 {
+            width: 50%;
+        }
+        #block-views-block-blog-block-1 .view-content>article:nth-of-type(7n) {
+            width: 100%;
+        }
+    }
+    @media (max-width:600px) {
+        .block-main h1 {
+            font-size: 24px;
+        }
+        .block-form-title {
+            font-size: 22px;
+            text-align: center;
+        }
+        .block-form-wrapper {
+            text-align: justify;
+        }
+        .user-teaser {
+            margin-bottom: 20px;
+            font-size: 12px;
+        }
+        .user-teaser-photo {
+            margin-bottom: 15px;
+        }
+        .user-teaser-post {
+            font-size: 12px;
+        }
+        #block-views-block-team-new {
+            margin-bottom: 30px;
+        }
+        #block-views-block-our-clients {
+            margin-bottom: 45px;
+        }
+        #block-views-block-our-clients .attachment-after .slick-track {
+            margin-left: -25%;
+        }
+        #block-views-block-our-clients .view-header {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        #block-views-block-testimonials-block-1 .view-content {
+            margin-top: 30px;
+        }
+        #block-views-block-testimonials-block-1 .view-content:before {
+            top: -15px;
+            left: 15px;
+            right: 15px;
+        }
+        #block-views-block-testimonials-block-1 .view-content:after {
+            top: -30px;
+            left: 30px;
+            right: 30px;
+        }
+        .blog.keys-1, .blog.keys-2 {
+            width: 100%;
+            min-height: 240px;
+        }
+    }
+    .fab {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+    }
+    .fa-facebook-f:before {
+        content: "\f39e";
+    }
+    .fa-telegram-plane:before {
+        content: "\f3fe";
+    }
+    .fa-vk:before {
+        content: "\f189";
+    }
+    .fa-youtube:before {
+        content: "\f167";
+    }
+    .sr-only {
+        border: 0;
+        clip: rect(0, 0, 0, 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+    .fab {
+        font-family: 'Font Awesome 5 Brands';
+    }
+    .block-main {
+        overflow: hidden;
+        position: relative;
+        padding: 130px 0 60px;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .block-main:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: url(img/druplicon.svg) no-repeat left top;
+        background-color: rgba(0, 0, 0, .8);
+        z-index: 10;
+    }
+    .block-main h1 {
+        font-size: 52px;
+        line-height: 60px;
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .block-main-background video {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: 5;
+        filter: blur(3px);
+        transform: scale(1.04);
+    }
+    .block-main .container {
+        position: relative;
+        z-index: 15;
+    }
+    .support-main-description {
+        font-size: 18px;
+        line-height: 1.6;
+        font-weight: 500;
+        color: rgba(255, 255, 255, .8);
+        margin-bottom: 55px;
+    }
+    @media (max-width:767px) {
+        .row-flex {
+            margin-bottom: 10px;
+        }
+        .tariff {
+            margin: 0 auto 30px;
+            padding: 30px 15px;
+            width: 420px;
+            max-width: 100%;
+        }
+        .tariff-wrapper {
+            width: 100%;
+        }
+        .tariff:hover, .tariffs .tariffs-row:hover .col-flex:nth-of-type(2n) .tariff:hover, .col-flex:nth-of-type(2n) .tariff {
+            transform: initial;
+        }
+        .block-main {
+            padding-top: 40px;
+        }
+        .block-main:before {
+            background-size: contain;
+            background-position: center top;
+        }
+        .block-main h1 {
+            font-size: 42px;
+            line-height: 1.2;
+            text-align: center;
+        }
+        .support-main-description {
+            font-size: 14px;
+            text-align: center;
+        }
+        .block-main-wrapper {
+            text-align: center;
+        }
+        .block-main-btn {
+            margin-bottom: 55px;
+        }
+        .block-form-title, .competencies h2, .advantages h2, .expertise h2, #block-tariffs .block-title, #block-views-block-team-new .block-title, #block-views-block-our-clients .block-title, #block-views-block-testimonials-block-1 .block-title, #block-views-block-blog-block-1 .block-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            margin-top: initial;
+        }
+        .block-form-wrapper {
+            margin: 0 auto 30px;
+            text-align: center;
+        }
+        .block-form-contacts ul li a {
+            font-size: 14px;
+        }
+        .block-form-contacts .block-form-phone a {
+            font-size: 24px;
+        }
+        .field--form-value form {
+            margin: auto;
+        }
+        footer {
+            background-size: cover, 165px, 140px;
+        }
+        .competency {
+            margin-bottom: 30px;
+        }
+        .competency-header {
+            text-align: center;
+        }
+        .competency-icon {
+            padding: 0;
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+        .competency-icon:before {
+            left: -54px;
+        }
+        .competency-icon img {
+            margin: auto;
+        }
+        .competency-body {
+            font-size: 14px;
+            width: 200px;
+            max-width: 100%;
+            margin: auto;
+        }
+        .competency-body br {
+            display: none;
+        }
+    }
+    @media (max-width:600px) {
+        .block-main h1 {
+            font-size: 24px;
+        }
+        .block-form-title {
+            font-size: 22px;
+            text-align: center;
+        }
+        .block-form-wrapper {
+            text-align: justify;
+        }
+    }
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: normal;
+    src: url("webfonts/fa-brands-400.eot");
+    src: url("webfonts/fa-brands-400.eot") format("embedded-opentype"), url("webfonts/fa-brands-400.woff2") format("woff2"), 
+    url("/webfonts/fa-brands-400.woff") format("woff"), url("webfonts/fa-brands-400.ttf") format("truetype"), url("webfonts/fa-brands-400.svg") format("svg");
+}
+
    
