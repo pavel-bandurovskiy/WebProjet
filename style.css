@@ -1,4 +1,4 @@
-@import url('stylefonts.css');
+@import url('css2.css');
 
 .social-links-wrapper {
     display: none!important;
@@ -7,7 +7,64 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+@media all {
 
+
+    main-addition {
+        position: relative;
+        padding-top: 40px;
+      }
+      .additions-list {
+        margin-top: 45px;
+        text-align: center;
+      }
+      .addition-item {
+        position: relative;
+      }
+      .addition-label {
+        position: relative;
+        font-weight: bold;
+        font-size: 24px;
+        color: #050c33;
+      }
+      .addition-head br {
+        display: none;
+      }
+      .addition-head {
+        margin-top: 10px;
+        width: 190px;
+        max-width: 100%;
+        margin: auto;
+      }
+      .addition-num {
+        font-size: 28px;
+        font-weight: bold;
+        color: #050c33;
+      }
+      .addition-desc {
+        font-weight: 500;
+        font-size: 14px;
+        color: #050c33;
+        opacity: 0.7;
+      }
+      .addition-bg {
+        position: relative;
+        z-index: 5;
+      }
+      .addition-bg:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 114px;
+        height: 71px;
+        left: 50px;
+        bottom: -6px;
+        z-index: 1;
+        background: url("./img/Vectorlistbg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      }
     .caretmenu{
         font-family: Montserrat!important;
         font-style: normal!important;
@@ -1325,64 +1382,7 @@
         width: 260px;
         max-width: 100%;
     }
-    @media all {
-
-    main-addition {
-        position: relative;
-        padding-top: 40px;
-      }
-      .additions-list {
-        margin-top: 45px;
-        text-align: center;
-      }
-      .addition-item {
-        position: relative;
-      }
-      .addition-label {
-        position: relative;
-        font-weight: bold;
-        font-size: 24px;
-        color: #050c33;
-      }
-      .addition-head br {
-        display: none;
-      }
-      .addition-head {
-        margin-top: 10px;
-        width: 190px;
-        max-width: 100%;
-        margin: auto;
-      }
-      .addition-num {
-        font-size: 28px;
-        font-weight: bold;
-        color: #050c33;
-      }
-      .addition-desc {
-        font-weight: 500;
-        font-size: 14px;
-        color: #050c33;
-        opacity: 0.7;
-      }
-      .addition-bg {
-        position: relative;
-        z-index: 5;
-      }
-      .addition-bg:before {
-        content: "";
-        display: block;
-        position: absolute;
-        width: 114px;
-        height: 71px;
-        left: 50px;
-        bottom: -6px;
-        z-index: 1;
-        background: url("./img/Vectorlistbg.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-      }
-#block-views-block-team-new .block-title {
+    #block-views-block-team-new .block-title {
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
@@ -2284,5 +2284,3 @@
     src: url("webfonts/fa-brands-400.eot") format("embedded-opentype"), url("webfonts/fa-brands-400.woff2") format("woff2"), 
     url("/webfonts/fa-brands-400.woff") format("woff"), url("webfonts/fa-brands-400.ttf") format("truetype"), url("webfonts/fa-brands-400.svg") format("svg");
 }
-
-   
